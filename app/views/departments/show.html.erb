@@ -4,5 +4,7 @@
 
 
 <%= link_to'Edit Department', edit_department_path(@department) %>
-<br />
+
 <%= link_to 'Delete Department', @department, method: :delete %>
+
+<%= link_to 'See Items for sale', department_items_path(@department) %>
